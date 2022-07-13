@@ -1,0 +1,50 @@
+
+footer {background-color: #123B40;
+    color: azure;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    ul {
+        li {  padding: 3vh;
+            display: inline-block;
+            cursor: pointer;
+            width: 1vh;
+
+            img {width: 6vh;
+                height: 6vh;
+
+            }
+        }
+    }
+
+    p a {color: #123B40 ;
+        background-color: #81DEAB;
+        border: #D9AB73 solid 5px;
+        border-radius: 2vh;
+        align-content: center;
+        padding: 2vh;
+        margin: 15px;}
+}
+.whatsapp__image {
+    width: 10vh;
+    position: fixed;
+    bottom: 0%;
+    right: 2vh;
+    z-index: 100;
+    
+}
+
+.lista, .botones, .whatsapp {
+    width: 33%;
+}
+ 
+.lista {
+    display: flex
+}
+
+ .botones__botom {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+ }

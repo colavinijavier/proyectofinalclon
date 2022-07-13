@@ -1,0 +1,45 @@
+
+.productos__piedras__naturales, .productos__piedras__sinteticas {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #123B40;
+
+}
+
+.Productos__Imagen {
+    width: 30vw;
+    height: 30vh;
+
+}
+
+
+.marmoles, .travertinos, .dekton, .neolith {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+    width: auto;
+    border:#123B40 solid 1px;
+    gap: 20px;
+    margin: 2%;
+    padding: 2%;
+    background-color: #878787;
+}
+
+.selectores {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
+    
+}
+.filtros { 
+
+    border: #123B40 solid 2px;
+    background-color: azure;
+    padding: 0 2%;
+
+}

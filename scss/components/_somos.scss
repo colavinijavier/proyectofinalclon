@@ -1,0 +1,34 @@
+
+
+ .staff { 
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+    gap: 10px
+    ;
+}
+
+.staff__miembros {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border:#123B40 solid 2px;
+
+    img {
+        width: 140px;
+height: 140px;
+border:#123B40 solid 5px;
+object-fit: cover;
+
+    }
+
+    p {     width: 100%;
+        align-items: center;
+        text-align: center;
+          }
+
+}   

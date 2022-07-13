@@ -1,0 +1,53 @@
+
+.grid-home {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+.imagenes-home {
+    img { width: 100%;
+    height: 500px;   }
+   
+}
+.grid-home-item {
+    border:#123B40 solid 2px;
+}
+
+
+.intro__empresa {
+
+    background: #123B40;
+    color:#D9AB73;
+    display: flex;
+    justify-content: centrer;
+    align-items: center;
+    align-content: center;
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        border-bottom: solid 1px red;
+        font-size: large;
+    }
+}
+
+.intro__mapa {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    border-bottom: solid 1px red;
+    gap: 40px;
+}
+
+.texto__mapa {
+    display: flex;
+   flex-direction:column;
+   justify-content: center;
+    align-items: center;
+
+}
