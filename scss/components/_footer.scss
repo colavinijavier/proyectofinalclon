@@ -17,13 +17,9 @@ footer {background-color: #123B40;
         }
     }
 
-    p a {color: #123B40 ;
-        background-color: #81DEAB;
-        border: #D9AB73 solid 5px;
-        border-radius: 2vh;
-        align-content: center;
-        padding: 2vh;
-        margin: 15px;}
+    p a {
+        @extend %botones;
+    }
 }
 .whatsapp__image {
     width: 10vh;

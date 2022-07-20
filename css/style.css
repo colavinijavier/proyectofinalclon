@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+footer p a {
+  color: #123B40;
+  background-color: #81DEAB;
+  border: #D9AB73 solid 5px;
+  border-radius: 5px;
+  align-content: center;
+  padding: 10px;
+  margin: 15px;
+}
+
 header {
   background: linear-gradient(45deg, #123B40, #327373);
   width: 100%;
@@ -47,16 +57,6 @@ footer ul li img {
   width: 6vh;
   height: 6vh;
 }
-footer p a {
-  color: #123B40;
-  background-color: #81DEAB;
-  border: #D9AB73 solid 5px;
-  border-radius: 2vh;
-  align-content: center;
-  padding: 2vh;
-  margin: 15px;
-}
-
 .whatsapp__image {
   width: 10vh;
   position: fixed;
