@@ -142,7 +142,7 @@ footer p a {
 .marmoles, .travertinos, .dekton, .neolith {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: align-items center;
   height: auto;
   width: auto;
   border: #123B40 solid 1px;
